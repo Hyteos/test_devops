@@ -1,2 +1,6 @@
 
 welcome-to-docker/
+
+act -s MY_SECRET=somevalue- utilisez somevalue comme valeur pour MY_SECRET.
+act -s MY_SECRET- recherchez une variable d'environnement nommée MY_SECRETet utilisez-la si elle existe. Si la variable d'environnement n'est pas définie, demandez à l'utilisateur une valeur.
+act --secret-file my.secrets- charger les valeurs secrètes du my.secretsfichier. Le format du fichier secrets est le même que .envle format
